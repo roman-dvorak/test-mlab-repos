@@ -5,6 +5,11 @@ import pcbnew
 from pcbnew import FromMM, wxPoint
 from pcbnew import PLOT_FORMAT_GERBER, PLOT_FORMAT_SVG, PLOT_FORMAT_PDF, PLOT_CONTROLLER, EXCELLON_WRITER
 from pcbnew import F_Cu, B_Cu, B_SilkS, F_SilkS, B_Mask, F_Mask, Edge_Cuts, B_Paste, F_Paste
+
+import kicad_netlist_reader
+import csv
+import sys
+
 filename=sys.argv[1]
 
 
@@ -109,3 +114,66 @@ pctl.PlotLayer()
 
 
 pctl.ClosePlot()
+
+
+import sqlite3
+import numpy as np
+import csv
+conn = sqlite3.connect('example.db')
+try:
+    conn.execute('''DROP TABLE parts''')
+except Exception, e:
+    pass
+conn.execute('''CREATE TABLE parts (name text, package text, value text, fingerprint text)''')
+conn.commit()
+
+
+filename2=sys.argv[2]
+
+sch = open(filename2, 'r').read()
+sch_parts = sch.split("$")
+
+#print sch
+
+for area in sch_parts:
+    if area[:4] == 'Comp':
+        try:
+            comp = area
+            comp = comp.replace('F 0', 'F_0')
+            comp = comp.replace('F 1', 'F_1')
+            comp = comp.replace('F 2', 'F_2')
+            comp = comp.replace('F 3', 'F_3')
+            comp = comp.replace('\r\n', ' ')
+            comp = comp.replace('  ', ' ')
+            comp = comp.replace('  ', ' ')
+            comp = comp.split(' ')
+            #print comp
+            Cname = comp[comp.index('L')+2]
+            Cvalue= comp[comp.index('F_1')+1]
+            Cpackage= comp[comp.index('F_2')+1]
+            print ">>", Cname, Cvalue, Cpackage
+            if not "#" in Cname:
+                conn.execute("INSERT INTO parts VALUES ('%s', '%s', '%s', '%s')" %(Cname, Cpackage.replace('"', ''), Cvalue.replace('"', ''), ""))
+        except Exception, e:
+            print e
+
+
+mydt = np.dtype([ ('name', np.str_, 5), 
+                 ('package', np.str_, 20),
+                 ('value', np.str_, 10),
+                 ('fingerprint', np.str_, 10)] )
+
+array = conn.execute("select min(name), package, count(*), value FROM parts GROUP BY package;").fetchall()
+print array
+
+with open(pctl.GetPlotDirName()+'../../NewBOM.csv', 'wb') as f:
+    writer = csv.writer(f, delimiter=';', quotechar='"', quoting=csv.QUOTE_NONNUMERIC)
+    #writer.writerow("ID", "Urcovatel", "Pouzdro", "pocet", "Hodnota")
+    for i, part in enumerate(array):
+        print (i+1,)+part
+        writer.writerow((i+1,)+part)
+#array.tofile("newOut.csv", sep=';')
+
+#print sch_parts
+
+conn.commit()

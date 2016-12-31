@@ -1,0 +1,6 @@
+1;"D1";"Mlab_D:Diode-MiniMELF_Standard";1;"BZV55C-5,6V"
+2;"U1";"Mlab_IO:DFN-8-1EP_2.4x2.4mm_Pitch0.5mm";1;"SHT31"
+3;"M1";"Mlab_Mechanical:MountingHole_3mm";2;"HOLE"
+4;"J1";"Mlab_Pin_Headers:Straight_1x01";2;"CONN1_1"
+5;"J10";"Mlab_Pin_Headers:Straight_1x02";5;"JUMP_2x1"
+6;"C1";"Mlab_R:SMD-0805";7;"100nF"
