@@ -1,3 +1,10 @@
+#  python generate.py Sensors/SHT31V01A/SCH_PCB/SHT31V01A.kicad_pcb Sensors/SHT31V01A/SCH_PCB/SHT31V01A.sch 
+
+
+
+
+
+
 import sys
 
 import subprocess
