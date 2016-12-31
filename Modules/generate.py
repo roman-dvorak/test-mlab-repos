@@ -46,12 +46,13 @@ plot_plan = [
 for layer_info in plot_plan:
     pctl.SetLayer(layer_info[1])
     pctl.OpenPlotfile(layer_info[0], PLOT_FORMAT_GERBER, layer_info[2])
+    pctl.PlotLayer()
+
+    
+    pctl.SetLayer(layer_info[1])
     pctl.OpenPlotfile(layer_info[0], PLOT_FORMAT_SVG, layer_info[2])
-    if pctl.PlotLayer() == False:
-        pass
-    else:
-        #subprocess.Popen(["inkscape", "--verb=FitCanvasToDrawing", "--verb=FileSave", pctl.GetPlotFileName()])
-        pass
+    pctl.PlotLayer()
+    
 
 
 drlwriter = EXCELLON_WRITER( board )
