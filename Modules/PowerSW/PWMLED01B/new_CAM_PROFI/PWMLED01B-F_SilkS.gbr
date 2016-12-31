@@ -1,0 +1,16 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-7409~56~ubuntu16.04.1*%
+%TF.CreationDate,2016-12-31T13:21:34+01:00*%
+%TF.ProjectId,PWMLED01B,50574D4C45443031422E6B696361645F,rev?*%
+%TF.FileFunction,Legend,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW no-vcs-found-7409~56~ubuntu16.04.1) date Sat Dec 31 13:21:34 2016*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.350000*%
+G04 APERTURE END LIST*
+D10*
+M02*
