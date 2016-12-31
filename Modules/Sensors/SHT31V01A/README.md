@@ -1,6 +1,6 @@
 <!--- Author:Jan Chroust: --->
 <!--- AuthorEmail:chroust@mlab.cz: --->
-#<!--- name --->SHT31V01A
+#<!--- Name:SHT31V01A: --->SHT31V01A
 <!--- Longname --->SHT31V1A – digitální vlhkoměr a teploměr
 
 <!--- lead --->
@@ -37,3 +37,4 @@ Je potřeba provést kontrolu zda není na plošném spoji zkrat a zda je dobře
 ###Program
 Vzorový program se nachází ve složce SW modulu. Pro spuštění je potřeba mít nainstalovaný
 pyMLAB.
+<!--- EContent --->
