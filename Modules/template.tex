@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english,czech]{babel}
 \usepackage[T1]{fontenc}
@@ -13,50 +13,68 @@
 \usepackage{graphicx}
 \usepackage{longtable}
 \usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
-%----------------------------------------------------------------------------------------
-%	TITLE PAGE
-%----------------------------------------------------------------------------------------
+\author{ \VAR{author} }
+\title{ \VAR{name} }
 
-\author{Jan Chroust}
-\title{SHT31V01A}
+\fancypagestyle{all}{
+  \fancyhf{}
+  \fancyhead[R]{\includegraphics[height=25pt]{/home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf}}
+  \fancyhead[L]{ {\Huge \VAR{name}  } }
+  %\fancyhead[R]{MLAB logo}
+  \fancyfoot[L]{ \VAR{name}; \today; \VAR{author}; \href{http://www.mlab.cz/}{www.mlab.cz} }% Left footer
+  \fancyfoot[R]{\thepage\  / \pageref{LastPage}}% Right footer
+}
+
+
+\pagestyle{all}
+
 \begin{document}
+%\rmfamily
+\fontsize{14.4}{20}\selectfont
 
-\begin{tabularx}{\textwidth}{  l @{\extracolsep{\fill}} r }
-\hline
-\\
-{\Huge {{name}} } & MLAB (logo)\\
-\\
-\hline
-\end{tabularx}
-%\maketitle
-\vspace{2cm}
+\vspace*{\fill}
+
 \begin{center}
 {\Huge SHT31V01A – digitální vlhkoměr a teploměr}
 
-{\Large {{author}}}
+{\Large \VAR{author}}
+
+\vspace*{\fill}
+\vspace*{1cm}
+
 \end{center}
+\begin{wrapfigure}{l}{4.5cm}
+    \includegraphics[width=4cm]{/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_QRcode.png}
+\end{wrapfigure}
 
-\vspace{2cm}
+\VAR{lead}
 
+\vspace*{\fill}
+\vfill
+\vspace*{1cm}
 
-{% if leadImg is defined %}
+%% if leadImg is defined
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=\textwidth/2]{leadImg}
+\includegraphics[width=10cm]{\VAR{leadImg}} 
 \end{figure}
-{% endif %}
+\vspace*{1cm}
+%% endif
 
-{{lead}}
-\vspace{2cm}
+\vspace*{\fill}
 \vfill
-{% if Description is defined %}
-{{Description}}
-{% endif %}
-\clearpage
-\newpage
-\pagestyle{empty} % Removes page numbers
+%% if Description is defined
+\VAR{Description}
+%% endif
 
-{{Content}}
+\flushbottom
+\newpage
+
+\VAR{Content}
 
 \end{document}

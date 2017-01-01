@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english,czech]{babel}
 \usepackage[T1]{fontenc}
@@ -13,43 +13,66 @@
 \usepackage{graphicx}
 \usepackage{longtable}
 \usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
-%----------------------------------------------------------------------------------------
-%	TITLE PAGE
-%----------------------------------------------------------------------------------------
+\author{ Jan Chroust }
+\title{ SHT31V01A }
 
-\author{Jan Chroust}
-\title{SHT31V01A}
+\fancypagestyle{all}{
+  \fancyhf{}
+  \fancyhead[R]{\includegraphics[height=25pt]{/home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf}}
+  \fancyhead[L]{ {\Huge SHT31V01A  } }
+  %\fancyhead[R]{MLAB logo}
+  \fancyfoot[L]{ SHT31V01A; \today; Jan Chroust; \href{http://www.mlab.cz/}{www.mlab.cz} }% Left footer
+  \fancyfoot[R]{\thepage\  / \pageref{LastPage}}% Right footer
+}
+
+
+\pagestyle{all}
+
 \begin{document}
+%\rmfamily
+\fontsize{14.4}{20}\selectfont
 
-\begin{tabularx}{\textwidth}{  l @{\extracolsep{\fill}} r }
-\hline
-\\
-{\Huge SHT31V01A } & MLAB (logo)\\
-\\
-\hline
-\end{tabularx}
-%\maketitle
-\vspace{2cm}
+\vspace*{\fill}
+
 \begin{center}
 {\Huge SHT31V01A – digitální vlhkoměr a teploměr}
 
 {\Large Jan Chroust}
+
+\vspace*{\fill}
+\vspace*{1cm}
+
 \end{center}
-
-\vspace{2cm}
-
-
-
+\begin{wrapfigure}{l}{4.5cm}
+    \includegraphics[width=4cm]{/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_QRcode.png}
+\end{wrapfigure}
 
 Jedná se o modul, který je možné osadit IO SHT30 nebo SHT31, které umí
 měřit relativní vlhkost a teplotu s velkou přesností a stabilitou.
 Rozsah měřené vlhkosti je 0 \% až 100 \%. Teplota je měřena v rozsahu
 -40 C až 125 C. Komunikace probíhá přes rozhranní I2C.
 
-\vspace{2cm}
-\vfill
 
+\vspace*{\fill}
+\vfill
+\vspace*{1cm}
+
+%% if leadImg is defined
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=10cm]{/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_top_big.jpg} 
+\end{figure}
+\vspace*{1cm}
+%% endif
+
+\vspace*{\fill}
+\vfill
+%% if Description is defined
 \section{Technické parametry}\label{technickuxe9-parametry}
 
 \begin{longtable}[c]{@{}lll@{}}
@@ -61,20 +84,33 @@ Relativní vlhkost & 0 \% - 100 \% ~ & Typ. přesnost dle
 IO\tabularnewline
 Teplota ~ ~ ~ ~ ~ & -40C - 125C ~ & Typ. přesnost dle IO\tabularnewline
 integrovaný obvod & SHT30, SHT31 & ~ ~ ~ ~ ~ ~ ~ ~ ~ ~\tabularnewline
+Rozhraní & I2C &\tabularnewline
+Napájení & Min. 2.4 V - max. 5.5 V &\tabularnewline
+Rozměry & 9.65 x 40.13 mm &\tabularnewline
 \bottomrule
 \end{longtable}
 
+%% endif
 
-\clearpage
+\flushbottom
 \newpage
-\pagestyle{empty} % Removes page numbers
 
 \section{Popis konstrukce}\label{popis-konstrukce}
+
+\subsection{Úvodem}\label{uxfavodem}
 
 Jedná se o modul založený na IO SHT31V01A, který umožňuje měření
 relativní vlhkosti a teploty a velkou přesností a stabilitou. Další
 přesné informace IO je možné vyčíst z oficiálního dokumentačního listu
 výrobce. Modul obsahuje veškeré potřebné součástky pro správný chod.
+
+\newpage
+
+\title{schema}
+
+tady bude schema
+
+\newpage
 
 \section{Osazení a oživení}\label{osazenuxed-a-oux17eivenuxed}
 

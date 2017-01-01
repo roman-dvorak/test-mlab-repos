@@ -4,7 +4,8 @@
 <!--- Longname --->SHT31V1A – digitální vlhkoměr a teploměr
 
 <!--- lead --->
-Jedná se o modul, který je možné osadit IO SHT30 nebo SHT31, které umí měřit relativní vlhkost a teplotu s velkou přesností a stabilitou. Rozsah měřené vlhkosti je 0 % až 100 %. Teplota je měřena v rozsahu -40  C až 125  C. Komunikace probíhá přes rozhranní I2C.
+Jedná se o modul, který je možné osadit IO SHT30 nebo SHT31, které umí měřit relativní vlhkost a teplotu s velkou přesností a stabilitou. Rozsah měřené vlhkosti je 0 % až 100 %. Teplota je měřena v rozsahu   -40 C až 125 
+ C. Komunikace probíhá přes rozhranní I2C.
 <!--- Elead --->
 
 <!--- Description --->
@@ -18,7 +19,9 @@ Jedná se o modul, který je možné osadit IO SHT30 nebo SHT31, které umí mě
 | Relativní vlhkost | 0 % - 100 %   | Typ. přesnost dle IO |
 | Teplota           | -40C - 125C   | Typ. přesnost dle IO |
 | integrovaný obvod | SHT30, SHT31  |                      |
-
+| Rozhraní | I2C | |
+| Napájení | Min. 2.4 V - max. 5.5 V | |
+| Rozměry | 9.65 x 40.13 mm | |
 
 
 
@@ -26,9 +29,10 @@ Jedná se o modul, který je možné osadit IO SHT30 nebo SHT31, které umí mě
 
 <!--- Content --->
 #Popis konstrukce
+## Úvodem
 Jedná se o modul založený na IO SHT31V01A, který umožňuje měření relativní vlhkosti a teploty a velkou přesností a stabilitou. Další přesné informace IO je možné vyčíst z oficiálního dokumentačního listu výrobce. Modul obsahuje veškeré potřebné součástky pro správný chod.
 
-<!--- scheme --->
+<!--- scheme ---><!--- Escheme --->
 <!---![alt text](https://cdn.rawgit.com/roman-dvorak/test-mlab-repos/master/Modules/Sensors/SHT31V01A/SCH_PCB/SHT31V01A.svg "Logo Title Text 1")--->
 
 
