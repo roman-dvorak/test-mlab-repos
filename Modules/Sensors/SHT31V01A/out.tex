@@ -16,6 +16,8 @@
 \usepackage{fancyhdr}
 \usepackage{hyperref}
 \usepackage{wrapfig}
+%\usepackage{pdfpages}
+\usepackage[final]{pdfpages}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
 % Redefine \includegraphics so that, unless explicit options are
@@ -49,12 +51,9 @@
   \fancyhf{}
   \fancyhead[R]{\includegraphics[height=25pt]{/home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf}}
   \fancyhead[L]{ {\Huge SHT31V01A  } }
-  %\fancyhead[R]{MLAB logo}
-  \fancyfoot[L]{ SHT31V01A; \today; Jan Chroust; \href{http://www.mlab.cz/}{www.mlab.cz} }% Left footer
-  %\fancyfoot[R]{\thepage\  / \pageref{LastPage}}% Right footer
-  \fancyfoot[R]{\thepage\  of XX }% Right footer
+  \fancyfoot[L]{ SHT31V01A; \today; Jan Chroust; \href{http://www.mlab.cz/}{www.mlab.cz} }
+  \fancyfoot[R]{\thepage\  of XX }
 }
-
 
 \pagestyle{all}
 
@@ -73,6 +72,7 @@
 \vspace*{1cm}
 
 \end{center}
+
 \begin{wrapfigure}{l}{4.5cm}
     \includegraphics[width=4cm]{/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_QRcode.png}
 \end{wrapfigure}
@@ -92,11 +92,9 @@ Rozsah měřené vlhkosti je 0 \% až 100 \%. Teplota je měřena v rozsahu
 \centering
 \includegraphics[width=10cm]{/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_top_big.jpg} 
 \end{figure}
-\vspace*{1cm}
 %% endif
 
-\vspace*{\fill}
-\vfill
+
 %% if Description is defined
 \section{Technické parametry}\label{technickuxe9-parametry}
 
@@ -117,7 +115,6 @@ Rozměry & 9.65 x 40.13 mm &\tabularnewline
 
 %% endif
 
-\flushbottom
 \newpage
 
 \section{Popis konstrukce}\label{popis-konstrukce}
@@ -141,13 +138,7 @@ výrobce. Modul obsahuje veškeré potřebné součástky pro správný chod.
 \caption{}
 \end{figure}
 
-\newpage
-
-\title{schema}
-
-tady bude schema
-
-\newpage
+\section{Scheme}\ \includegraphics[angle=90,origin=c,width=\textwidth-1cm]{SCH_PCB/SHT31V01A.pdf}
 
 \section{Osazení a oživení}\label{osazenuxed-a-oux17eivenuxed}
 
@@ -155,7 +146,13 @@ tady bude schema
 
 \begin{figure}[htbp]
 \centering
-\includegraphics{DOC/SRC/img/SHT31V01A_top_big.jpg}
+\includegraphics{DOC/new_src/SHT31V01A-MLABa.png}
+\caption{}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{DOC/new_src/SHT31V01A-MLABb.png}
 \caption{}
 \end{figure}
 

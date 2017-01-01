@@ -16,6 +16,8 @@
 \usepackage{fancyhdr}
 \usepackage{hyperref}
 \usepackage{wrapfig}
+%\usepackage{pdfpages}
+\usepackage[final]{pdfpages}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
 % Redefine \includegraphics so that, unless explicit options are
@@ -49,12 +51,9 @@
   \fancyhf{}
   \fancyhead[R]{\includegraphics[height=25pt]{/home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf}}
   \fancyhead[L]{ {\Huge \VAR{name}  } }
-  %\fancyhead[R]{MLAB logo}
-  \fancyfoot[L]{ \VAR{name}; \today; \VAR{author}; \href{http://www.mlab.cz/}{www.mlab.cz} }% Left footer
-  %\fancyfoot[R]{\thepage\  / \pageref{LastPage}}% Right footer
-  \fancyfoot[R]{\thepage\  of XX }% Right footer
+  \fancyfoot[L]{ \VAR{name}; \today; \VAR{author}; \href{http://www.mlab.cz/}{www.mlab.cz} }
+  \fancyfoot[R]{\thepage\  of XX }
 }
-
 
 \pagestyle{all}
 
@@ -73,6 +72,7 @@
 \vspace*{1cm}
 
 \end{center}
+
 \begin{wrapfigure}{l}{4.5cm}
     \includegraphics[width=4cm]{/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_QRcode.png}
 \end{wrapfigure}
@@ -88,16 +88,13 @@
 \centering
 \includegraphics[width=10cm]{\VAR{leadImg}} 
 \end{figure}
-\vspace*{1cm}
 %% endif
 
-\vspace*{\fill}
-\vfill
+
 %% if Description is defined
 \VAR{Description}
 %% endif
 
-\flushbottom
 \newpage
 
 \VAR{Content}

@@ -1,10 +1,6 @@
 #  python generate.py Sensors/SHT31V01A/SCH_PCB/SHT31V01A.kicad_pcb Sensors/SHT31V01A/SCH_PCB/SHT31V01A.sch 
 
 
-
-
-
-
 import sys
 
 import subprocess
@@ -64,6 +60,7 @@ for layer_info in plot_plan:
     pctl.SetLayer(layer_info[1])
     pctl.OpenPlotfile(layer_info[0], PLOT_FORMAT_SVG, layer_info[2])
     pctl.PlotLayer()
+    #subprocess.Popen(["inkscape", "-z", "--verb=FitCanvasToDrawing", "--verb=FileSave", pctl.GetPlotFileName()])
     
 
 
@@ -109,14 +106,23 @@ pctl.SetLayer(F_SilkS)
 pctl.PlotLayer()
 pctl.SetLayer(F_Mask)
 pctl.PlotLayer()
-#subprocess.Popen(["inkscape", "--verb=FitCanvasToDrawing", "--verb=FileSave", pctl.GetPlotFileName()])
+#proc = subprocess.Popen(["inkscape", "--without-gui", "--verb=FitCanvasToDrawing", "--verb=FileSave", pctl.GetPlotFileName()])
+#proc = subprocess.Popen(["inkscape", "--verb=FitCanvasToDrawing", "--verb=FileSave", pctl.GetPlotFileName()])
+#proc.wait()
+#proc = subprocess.Popen(["convert", "-density 600", pctl.GetPlotFileName(), pctl.GetPlotFileName().replace('.svg', '.png') ])
+#proc.wait()
 
 
 popt.SetMirror(True)
 pctl.OpenPlotfile("MLABb", PLOT_FORMAT_SVG, "MLAB A")
 pctl.SetLayer(B_SilkS)
 pctl.PlotLayer()
-#subprocess.Popen(["inkscape", "--verb=FitCanvasToDrawing", "--verb=FileSave", pctl.GetPlotFileName()])
+#proc = subprocess.Popen(["inkscape", "--without-gui", "--verb=FitCanvasToDrawing", "--verb=FileSave", pctl.GetPlotFileName()])
+#proc = subprocess.Popen(["inkscape", "--verb=FitCanvasToDrawing", "--verb=FileSave", pctl.GetPlotFileName()])
+#proc.wait()
+#proc = subprocess.Popen(["inkscape", "-z -d 600", pctl.GetPlotFileName(), '-e', pctl.GetPlotFileName().replace('.svg', '.png') ])
+#proc = subprocess.Popen(["convert", "-density 600", pctl.GetPlotFileName(), '-set density 1200', pctl.GetPlotFileName().replace('.svg', '.png') ])
+#proc.wait()
 
 
 

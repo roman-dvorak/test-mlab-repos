@@ -30,7 +30,7 @@ Jedná se o modul, který je možné osadit IO SHT30 nebo SHT31, které umí mě
 <!--- Content --->
 #Popis konstrukce
 ## Úvodem
-Jedná  se o modul založený na IO SHT31V01A, který umožňuje měření relativní vlhkosti a teploty a velkou přesností a stabilitou. Další přesné informace IO je možné vyčíst z oficiálního dokumentačního listu výrobce. Modul obsahuje veškeré potřebné součástky pro správný chod.
+Jedná se o modul založený na IO SHT31V01A, který umožňuje měření relativní vlhkosti a teploty a velkou přesností a stabilitou. Další přesné informace IO je možné vyčíst z oficiálního dokumentačního listu výrobce. Modul obsahuje veškeré potřebné součástky pro správný chod.
 
 ![](DOC/SRC/img/docA.jpg)
 
@@ -44,7 +44,9 @@ Jedná  se o modul založený na IO SHT31V01A, který umožňuje měření relat
 
 ##Osazení
 
-![](DOC/SRC/img/SHT31V01A_top_big.jpg)
+![](DOC/new_src/SHT31V01A-MLABa.png)
+
+![](DOC/new_src/SHT31V01A-MLABb.png)
 
 
 ##Oživení

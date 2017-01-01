@@ -127,23 +127,14 @@ Description = md_tex(Description)
 
 
 schema  ='''
-\\newpage
-
-\\title{schema}
-tady bude schema 
-
-\\newpage
+# Scheme
 '''
+
 Content = text_btw_replace(Content, '<!--- scheme --->', '<!--- Escheme --->', schema)
-
-#for a in range(Content.count('[relImg]')):
-#    print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", a
-#    print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-#    Content = replace_relativ_imgs(Content)
-#    print Content
-#print Content
 Content = md_tex(Content)
+Content = Content.replace('label{scheme}', ' \includegraphics[angle=90,origin=c,width=\\textwidth-1cm]{SCH_PCB/SHT31V01A.pdf}')
 
+print Content
 
 print lead
 proc = subprocess.Popen( ['pandoc', '-f', 'markdown', '-t', 'latex'],stdout=subprocess.PIPE, stdin=subprocess.PIPE)
