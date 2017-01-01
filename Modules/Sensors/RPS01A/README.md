@@ -1,8 +1,8 @@
 <!--- Created:2017-01-02T00:12:37.669939: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
-#<!--- Name:RPS01A: --->
-RPS01A 
+<!--- Name:RPS01A: --->
+#RPS01A 
 <!--- LongName --->
 Rotary Magnetic Position sensor
 <!--- ELongName ---> 
