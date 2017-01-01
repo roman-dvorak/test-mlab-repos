@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english,czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=1.2cm,right=1.2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[svgnames]{xcolor}
+\usepackage{tabularx}
+\usepackage{svg}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\author{Jan Chroust}
+\title{SHT31V01A}
+\begin{document}
+
+\begin{tabularx}{\textwidth}{  l @{\extracolsep{\fill}} r }
+\hline
+\\
+{\Huge {{name}} } & MLAB (logo)\\
+\\
+\hline
+\end{tabularx}
+%\maketitle
+\vspace{2cm}
+\begin{center}
+{\Huge SHT31V01A – digitální vlhkoměr a teploměr}
+
+{\Large {{author}}}
+\end{center}
+
+\vspace{2cm}
+
+
+{% if leadImg is defined %}
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=\textwidth/2]{leadImg}
+\end{figure}
+{% endif %}
+
+{{lead}}
+\vspace{2cm}
+\vfill
+{% if Description is defined %}
+{{Description}}
+{% endif %}
+\clearpage
+\newpage
+\pagestyle{empty} % Removes page numbers
+
+{{Content}}
+
+\end{document}

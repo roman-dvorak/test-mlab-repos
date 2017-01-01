@@ -1,0 +1,96 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english,czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=1.2cm,right=1.2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[svgnames]{xcolor}
+\usepackage{tabularx}
+\usepackage{svg}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\author{Jan Chroust}
+\title{SHT31V01A}
+\begin{document}
+
+\begin{tabularx}{\textwidth}{  l @{\extracolsep{\fill}} r }
+\hline
+\\
+{\Huge SHT31V01A } & MLAB (logo)\\
+\\
+\hline
+\end{tabularx}
+%\maketitle
+\vspace{2cm}
+\begin{center}
+{\Huge SHT31V01A – digitální vlhkoměr a teploměr}
+
+{\Large Jan Chroust}
+\end{center}
+
+\vspace{2cm}
+
+
+
+
+Jedná se o modul, který je možné osadit IO SHT30 nebo SHT31, které umí
+měřit relativní vlhkost a teplotu s velkou přesností a stabilitou.
+Rozsah měřené vlhkosti je 0 \% až 100 \%. Teplota je měřena v rozsahu
+-40 C až 125 C. Komunikace probíhá přes rozhranní I2C.
+
+\vspace{2cm}
+\vfill
+
+\section{Technické parametry}\label{technickuxe9-parametry}
+
+\begin{longtable}[c]{@{}lll@{}}
+\toprule
+Parametr ~ ~ ~ ~ & Hodnota ~ ~ ~ & Poznámka ~ ~ ~ ~ ~ ~\tabularnewline
+\midrule
+\endhead
+Relativní vlhkost & 0 \% - 100 \% ~ & Typ. přesnost dle
+IO\tabularnewline
+Teplota ~ ~ ~ ~ ~ & -40C - 125C ~ & Typ. přesnost dle IO\tabularnewline
+integrovaný obvod & SHT30, SHT31 & ~ ~ ~ ~ ~ ~ ~ ~ ~ ~\tabularnewline
+\bottomrule
+\end{longtable}
+
+
+\clearpage
+\newpage
+\pagestyle{empty} % Removes page numbers
+
+\section{Popis konstrukce}\label{popis-konstrukce}
+
+Jedná se o modul založený na IO SHT31V01A, který umožňuje měření
+relativní vlhkosti a teploty a velkou přesností a stabilitou. Další
+přesné informace IO je možné vyčíst z oficiálního dokumentačního listu
+výrobce. Modul obsahuje veškeré potřebné součástky pro správný chod.
+
+\section{Osazení a oživení}\label{osazenuxed-a-oux17eivenuxed}
+
+\subsection{Osazení}\label{osazenuxed}
+
+\subsection{Oživení}\label{oux17eivenuxed}
+
+Je potřeba provést kontrolu zda není na plošném spoji zkrat a zda je
+dobře zapájen IO. Jinak není třeba nic oživovat, pouze připojit a napsat
+program. Když je nulovým odporem osazena pozice R4 adresa modulu je
+0x44, pokud je osazena pozice R3 je adresa 0x45.
+
+\subsection{Program}\label{program}
+
+Vzorový program se nachází ve složce SW modulu. Pro spuštění je potřeba
+mít nainstalovaný pyMLAB.
+
+
+\end{document}
