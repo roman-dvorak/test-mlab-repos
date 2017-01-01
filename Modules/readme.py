@@ -114,10 +114,11 @@ name = text_btw(readme, "<!--- Name:", ":")
 author = text_btw(readme, "<!--- Author:", ":")
 email = text_btw(readme, "<!--- AuthorEmail:", ":")
 LongName = text_btw(readme, "<!--- LongName --->", "<!--- ELongName --->")
-lead = text_btw(readme, "<!--- lead --->", "<!--- Elead --->")
+lead = text_btw(readme, "<!--- Lead --->", "<!--- ELead --->")
 Description = text_btw(readme, "<!--- Description --->", "<!--- EDescription --->")
 Content = text_btw(readme, "<!--- Content --->", "<!--- EContent --->")
-leadImg = text_btw(readme, "![leadImg](", ")")
+leadImg = text_btw(readme, "![LeadImg](", ")")
+qr = leadImg.replace('_top_big.jpg','_QRcode.png')
 
 #leadImg = "/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_top_big.jpg"
 
@@ -160,7 +161,7 @@ print name, author, email, LongName
 
 #t = latex_jinja_env(leader=open('template.tex').read().decode('utf8'))
 t = latex_jinja_env.get_template('template.tex')
-out = t.render(name = name, author = author, LongName = LongName, email = email, lead=lead, leadImg = folder+'/'+leadImg, Description = Description, Content = Content)
+out = t.render(name = name, author = author, LongName = LongName, email = email, lead=lead, leadImg = folder+'/'+leadImg, Description = Description, Content = Content, qr=qr)
 
 
 

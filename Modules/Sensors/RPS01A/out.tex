@@ -44,14 +44,14 @@
 \setkeys{Gin}{width=\ScaleWidthIfNeeded,height=\ScaleHeightIfNeeded,keepaspectratio}%
 
 
-\author{ \VAR{author} }
-\title{ \VAR{name} }
+\author{ Mlab }
+\title{ RPS01A }
 
 \fancypagestyle{all}{
   \fancyhf{}
   \fancyhead[R]{\includegraphics[height=25pt]{/home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf}}
-  \fancyhead[L]{ {\Huge \VAR{name}  } }
-  \fancyfoot[L]{ \VAR{name}; \today; \VAR{author}; \href{http://www.mlab.cz/}{www.mlab.cz} }
+  \fancyhead[L]{ {\Huge RPS01A  } }
+  \fancyfoot[L]{ RPS01A; \today; Mlab; \href{http://www.mlab.cz/}{www.mlab.cz} }
   \fancyfoot[R]{\thepage\  of XX }
 }
 
@@ -64,9 +64,11 @@
 \vspace*{\fill}
 
 \begin{center}
-{\Huge \VAR{LongName}}
+{\Huge 
+Rotary Magnetic Position sensor
+}
 
-{\Large \VAR{author}}
+{\Large Mlab}
 
 \vspace*{\fill}
 \vspace*{1cm}
@@ -75,12 +77,18 @@
 
 %% if qr
 \begin{wrapfigure}{l}{4.5cm}
-    \includegraphics[width=4cm]{\VAR{qr}}
+    \includegraphics[width=4cm]{DOC/SRC/img/RPS01A_QRcode.png}
 \end{wrapfigure}
 %% endif
 
 %% if lead is defined
-\VAR{lead}
+In is a contactless magnetic position sensor for accurate angular
+measurement over a full turn of 360 degrees. To measure the angle, only
+a simple two-pole magnet, rotating over the center of the chip, is
+required. The absolute angle measurement provides instant indication of
+the magnet's angular position with a resolution of 0.0879º. This digital
+data is available as a serial bit stream.
+
 %% endif
 
 \vspace*{\fill}
@@ -90,19 +98,21 @@
 %% if leadImg is defined
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=10cm]{\VAR{leadImg}} 
+\includegraphics[width=10cm]{/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/RPS01A/DOC/SRC/img/RPS01A_top_big.jpg} 
 \end{figure}
 %% endif
 
 
 %% if Description is defined
-\VAR{Description}
+
+
 %% endif
 
 \newpage
 
 %% if Content is defined
-\VAR{Content}
+
+
 %% endif
 
 \end{document}
