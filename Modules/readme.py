@@ -24,52 +24,88 @@ latex_jinja_env = jinja2.Environment(
 #sys.setdefaultencoding('utf-8')
 
 
-def text_btw(text, start, end):
+
+filename=os.path.abspath(sys.argv[1])
+folder = os.path.dirname(filename)
+project = os.path.basename(folder)
+
+print filename
+print folder
+print project
+os.chdir(folder)
+print "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&7"
+
+
+
+def text_btw(text, start, end, reverse = False):
     try:
-        num_s = text.index( start ) + len( start )
-        text = text[num_s:]
-        num_e = text.find(end)
-        return text[:num_e].decode('utf8')
+        if not reverse:
+            num_s = text.index( start ) + len( start )
+            text = text[num_s:]
+            num_e = text.find(end)
+            return text[:num_e].decode('utf8')
+        elif reverse:
+            num_e = text.find(end)
+            text = text[:num_e]
+            num_s = text.index( start ) + len( start )
+            return text[num_s:].decode('utf8')
+
     except Exception, e:
+        print "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 2"
+        print e, start, end
+        print "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 2"
         return ""
 
 
 def text_btw_replace(text, start, end, replace):
     try:
-        print "######################################################  1"
-        print text
-        num_s = text.index( start )-1
-        num_e = text.find(end)+len(end)
+        #print "######################################################  1"
+        #print text
+        num_s = text.index( start )+len(start)
+        num_e = text.find(end)
         print num_s, num_e
 
         text_pre = text[:num_s]
-        print "###################################################### 2"
-        print "PRE"
-        print text_pre
+        #print "###################################################### 2"
+        #print "PRE"
+        #print text_pre
         text_post= text[num_e:]
-        print
-        print "post"
-        print text_post
-        print "###################################################### 3"
+        #print
+        #print "post"
+        #print text_post
+        #print "###################################################### 3"
         out = (text_pre+replace+text_post)
-        print out
-        print "###################################################### 4"
+        #print out
+        #print "###################################################### 4"
 
         return out
     except Exception, e:
-        print e
-        return ""
+        print "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 1"
+        print e, start, end, replace
+        print "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 1"
+        return text
 
-def md_tex(md):
-    proc = subprocess.Popen( ['pandoc', '-f', 'markdown', '-t', 'latex'],stdout=subprocess.PIPE, stdin=subprocess.PIPE)
-    proc.stdin.write(md.encode('utf8'))
-    proc.stdin.close()
-    out = proc.stdout.read().decode('utf8')
-    proc.wait()
+def replace_relativ_imgs(text):
+    replacement = text_btw(text, '![relImg](', ')')
+    #print '![relImg]('+replacement+')<!--- '
+    #fig = text_btw(text, '![relImg]('+replacement+')<!--- ', '--->')
+    print "@@@@@@@@@@@@@@@@@2", replacement, folder+'/'+replacement
+    out = text_btw_replace(text, '![relImg](', ")", folder+'/'+replacement)
+    out = out.replace('relImg', '', 1)
     return out
 
+def md_tex(md):
+    try:
+        proc = subprocess.Popen( ['pandoc', '-f', 'markdown', '-t', 'latex'],stdout=subprocess.PIPE, stdin=subprocess.PIPE)
+        proc.stdin.write(md.encode('utf8'))
+        proc.stdin.close()
+        out = proc.stdout.read().decode('utf8')
+        proc.wait()
+        return out
+    except Exception, e:
+        return "Err ----"
 
-filename=sys.argv[1]
+
 
 readme = open(filename, 'r').read()
 
@@ -77,12 +113,18 @@ readme = open(filename, 'r').read()
 name = text_btw(readme, "<!--- Name:", ":")
 author = text_btw(readme, "<!--- Author:", ":")
 email = text_btw(readme, "<!--- AuthorEmail:", ":")
-LongName = text_btw(readme, "<!--- LongName:", ":")
+LongName = text_btw(readme, "<!--- LongName --->", "<!--- ELongName --->")
 lead = text_btw(readme, "<!--- lead --->", "<!--- Elead --->")
 Description = text_btw(readme, "<!--- Description --->", "<!--- EDescription --->")
 Content = text_btw(readme, "<!--- Content --->", "<!--- EContent --->")
+leadImg = text_btw(readme, "![leadImg](", ")")
 
-leadImg = "/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_top_big.jpg"
+#leadImg = "/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_top_big.jpg"
+
+
+Description = md_tex(Description)
+
+
 
 schema  ='''
 \\newpage
@@ -92,37 +134,50 @@ tady bude schema
 
 \\newpage
 '''
-
 Content = text_btw_replace(Content, '<!--- scheme --->', '<!--- Escheme --->', schema)
 
+#for a in range(Content.count('[relImg]')):
+#    print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", a
+#    print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+#    Content = replace_relativ_imgs(Content)
+#    print Content
+#print Content
+Content = md_tex(Content)
 
+
+print lead
 proc = subprocess.Popen( ['pandoc', '-f', 'markdown', '-t', 'latex'],stdout=subprocess.PIPE, stdin=subprocess.PIPE)
 proc.stdin.write(lead.encode('utf8'))
 proc.stdin.close()
 lead = proc.stdout.read().decode('utf8')
+print "#### LEAD #################"
 print lead
 proc.wait()
 
 
 
 Description = md_tex(Description)
-Content = md_tex(Content)
 
 
 
 print name, author, email, LongName
-print lead
-print Description
-print Content
+#print lead
+#print Description
+#print Content
+
 
 
 #t = latex_jinja_env(leader=open('template.tex').read().decode('utf8'))
 t = latex_jinja_env.get_template('template.tex')
-out = t.render(name = name, author = author, LongName = LongName, email = email, lead=lead, leadImg = leadImg, Description = Description, Content = Content)
+out = t.render(name = name, author = author, LongName = LongName, email = email, lead=lead, leadImg = folder+'/'+leadImg, Description = Description, Content = Content)
 
 
 
-f = open('out.tex', 'w')
+f = open(folder+'/'+'out.tex', 'w')
 f.write(out.encode('utf8'))
 f.close()
-subprocess.Popen(['pdflatex', 'out.tex', 'out.pdf'])
+proc = subprocess.Popen(['pdflatex', folder+'/'+'out.tex', '-o', folder+'/'+'README.pdf'])
+proc.wait()
+
+#proc = subprocess.Popen(['pdflatex', folder+'/'+'out.tex', '-o', folder+'/'+'README.pdf'])
+#proc.wait()

@@ -1,7 +1,7 @@
 <!--- Author:Jan Chroust: --->
 <!--- AuthorEmail:chroust@mlab.cz: --->
 #<!--- Name:SHT31V01A: --->SHT31V01A
-<!--- Longname --->SHT31V1A – digitální vlhkoměr a teploměr
+<!--- LongName --->SHT31V1A – digitální vlhkoměr a teploměr<!--- ELongName --->
 
 <!--- lead --->
 Jedná se o modul, který je možné osadit IO SHT30 nebo SHT31, které umí měřit relativní vlhkost a teplotu s velkou přesností a stabilitou. Rozsah měřené vlhkosti je 0 % až 100 %. Teplota je měřena v rozsahu   -40 C až 125 
@@ -30,16 +30,20 @@ Jedná se o modul, který je možné osadit IO SHT30 nebo SHT31, které umí mě
 <!--- Content --->
 #Popis konstrukce
 ## Úvodem
-Jedná se o modul založený na IO SHT31V01A, který umožňuje měření relativní vlhkosti a teploty a velkou přesností a stabilitou. Další přesné informace IO je možné vyčíst z oficiálního dokumentačního listu výrobce. Modul obsahuje veškeré potřebné součástky pro správný chod.
+Jedná  se o modul založený na IO SHT31V01A, který umožňuje měření relativní vlhkosti a teploty a velkou přesností a stabilitou. Další přesné informace IO je možné vyčíst z oficiálního dokumentačního listu výrobce. Modul obsahuje veškeré potřebné součástky pro správný chod.
+
+![](DOC/SRC/img/docA.jpg)
+
+![](DOC/SRC/img/docB.jpg)
 
 <!--- scheme ---><!--- Escheme --->
-<!---![alt text](SCH_PCB/SHT31V01A.svg "Logo Title Text 1")--->
 
 
 #Osazení a oživení
+
+
 ##Osazení
 
-![](DOC/SRC/img/SHT31V01A_top_big.jpg)
 ![](DOC/SRC/img/SHT31V01A_top_big.jpg)
 
 

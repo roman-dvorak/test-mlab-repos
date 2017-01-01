@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.25)  1 JAN 2017 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.25)  1 JAN 2017 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -910,146 +910,78 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  </home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf> </home/roman/repo
 s/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_QRcod
 e.png> </home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC
-/SRC/img/SHT31V01A_top_big.jpg>]
-</home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/im
-g/docA.jpg, id=55, 730.98094pt x 307.1475pt>
-File: /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/S
-RC/img/docA.jpg Graphic file (type jpg)
+/SRC/img/SHT31V01A_top_big.jpg>] <DOC/SRC/img/docA.jpg, id=55, 730.98094pt x 30
+7.1475pt>
+File: DOC/SRC/img/docA.jpg Graphic file (type jpg)
 
-<use /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SR
-C/img/docA.jpg>
-Package pdftex.def Info: /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sens
-ors/SHT31V01A/DOC/SRC/img/docA.jpg used on input line 135.
+<use DOC/SRC/img/docA.jpg>
+Package pdftex.def Info: DOC/SRC/img/docA.jpg used on input line 134.
 (pdftex.def)             Requested size: 529.25049pt x 222.3833pt.
 
-</home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/im
-g/docB.jpg, id=56, 727.96968pt x 313.17pt>
-File: /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/S
-RC/img/docB.jpg Graphic file (type jpg)
+<DOC/SRC/img/docB.jpg, id=56, 727.96968pt x 313.17pt>
+File: DOC/SRC/img/docB.jpg Graphic file (type jpg)
 
-<use /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SR
-C/img/docB.jpg>
-Package pdftex.def Info: /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sens
-ors/SHT31V01A/DOC/SRC/img/docB.jpg used on input line 141.
+<use DOC/SRC/img/docB.jpg>
+Package pdftex.def Info: DOC/SRC/img/docB.jpg used on input line 140.
 (pdftex.def)             Requested size: 529.23631pt x 227.67558pt.
-File: /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/S
-RC/img/docB.jpg Graphic file (type jpg)
-
-<use /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SR
-C/img/docB.jpg>
-Package pdftex.def Info: /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sens
-ors/SHT31V01A/DOC/SRC/img/docB.jpg used on input line 147.
-(pdftex.def)             Requested size: 529.23631pt x 227.67558pt.
-File: /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/S
-RC/img/docB.jpg Graphic file (type jpg)
-
-<use /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SR
-C/img/docB.jpg>
-Package pdftex.def Info: /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sens
-ors/SHT31V01A/DOC/SRC/img/docB.jpg used on input line 153.
-(pdftex.def)             Requested size: 529.23631pt x 227.67558pt.
-
-
-LaTeX Warning: File `DOC/SRC/img/docB.jpg' not found on input line 157.
-
-
-! Package pdftex.def Error: File `DOC/SRC/img/docB.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 \includegraphics{DOC/SRC/img/docB.jpg}
-                                             \newpage
-? 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 157.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 File: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf Graphic file (
 type pdf)
 
 <use /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf>
 Package pdftex.def Info: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long
-.pdf used on input line 157.
+.pdf used on input line 144.
 (pdftex.def)             Requested size: 160.36pt x 25.00015pt.
- [2 </home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SR
-C/img/docA.jpg> </home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT3
-1V01A/DOC/SRC/img/docB.jpg>]
-File: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf Graphic file (
-type pdf)
- <use /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf>
-Package pdftex.def Info: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long
-.pdf used on input line 157.
-(pdftex.def)             Requested size: 160.36pt x 25.00015pt.
-
-[3]
-File: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf Graphic file (
-type pdf)
- <use /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf>
-Package pdftex.def Info: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long
-.pdf used on input line 157.
-(pdftex.def)             Requested size: 160.36pt x 25.00015pt.
- [4]
+ [2 <./DOC/SRC/img/docA.jpg> <./DOC/SRC/img/docB.jpg>]
 File: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf Graphic file (
 type pdf)
 
 <use /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf>
 Package pdftex.def Info: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long
-.pdf used on input line 163.
+.pdf used on input line 150.
 (pdftex.def)             Requested size: 160.36pt x 25.00015pt.
- [5]
+ [3]
+<DOC/SRC/img/SHT31V01A_top_big.jpg, id=70, 996.72375pt x 338.26375pt>
+File: DOC/SRC/img/SHT31V01A_top_big.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `DOC/SRC/img/SHT31V01A_top_big.jpg' not found on input line
- 171.
-
-
-! Package pdftex.def Error: File `DOC/SRC/img/SHT31V01A_top_big.jpg' not found.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.171 ...aphics{DOC/SRC/img/SHT31V01A_top_big.jpg}
-                                                  
-? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
+<use DOC/SRC/img/SHT31V01A_top_big.jpg>
+Package pdftex.def Info: DOC/SRC/img/SHT31V01A_top_big.jpg used on input line 1
+58.
+(pdftex.def)             Requested size: 529.23444pt x 179.60925pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
 File: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf Graphic file (
 type pdf)
+
 <use /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf>
 Package pdftex.def Info: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long
-.pdf used on input line 188.
+.pdf used on input line 175.
 (pdftex.def)             Requested size: 160.36pt x 25.00015pt.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+ [4 <./DOC/SRC/img/SHT31V01A_top_big.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./out.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `out.out' has not changed.
 (rerunfilecheck)             Checksum: 1D77EEDCEB75205F4E8B046D62535F72;404.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 9959 strings out of 494878
- 144022 string characters out of 6178665
+ 9938 strings out of 494878
+ 142964 string characters out of 6178665
  254985 words of memory out of 5000000
- 13073 multiletter control sequences out of 15000+600000
- 9188 words of font info for 23 fonts, out of 8000000 for 9000
+ 13061 multiletter control sequences out of 15000+600000
+ 8562 words of font info for 21 fonts, out of 8000000 for 9000
  46 hyphenation exceptions out of 8191
  68i,15n,98p,429b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/roman/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/r
-oman/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600pk> </home/roman/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/roman/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/roman/.texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecbx1728.600pk> </home/roman/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecrm1440.600pk> </home/roman/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.60
-0pk> </home/roman/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk>
-Output written on out.pdf (6 pages, 318449 bytes).
+ </home/roman/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/r
+oman/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/roman/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/roman/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/roman/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm1728.600pk> </home/roman/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecrm2488.600pk>
+Output written on out.pdf (4 pages, 456318 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 288 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 

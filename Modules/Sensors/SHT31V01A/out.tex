@@ -18,6 +18,30 @@
 \usepackage{wrapfig}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
+% Redefine \includegraphics so that, unless explicit options are
+% given, the image width will not exceed the width or the height of the page.
+% Images get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\ScaleWidthIfNeeded{%
+ \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\def\ScaleHeightIfNeeded{%
+  \ifdim\Gin@nat@height>0.9\textheight
+    0.9\textheight
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\setkeys{Gin}{width=\ScaleWidthIfNeeded,height=\ScaleHeightIfNeeded,keepaspectratio}%
+
+
 \author{ Jan Chroust }
 \title{ SHT31V01A }
 
@@ -27,7 +51,8 @@
   \fancyhead[L]{ {\Huge SHT31V01A  } }
   %\fancyhead[R]{MLAB logo}
   \fancyfoot[L]{ SHT31V01A; \today; Jan Chroust; \href{http://www.mlab.cz/}{www.mlab.cz} }% Left footer
-  \fancyfoot[R]{\thepage\  / \pageref{LastPage}}% Right footer
+  %\fancyfoot[R]{\thepage\  / \pageref{LastPage}}% Right footer
+  \fancyfoot[R]{\thepage\  of XX }% Right footer
 }
 
 
@@ -40,7 +65,7 @@
 \vspace*{\fill}
 
 \begin{center}
-{\Huge SHT31V01A – digitální vlhkoměr a teploměr}
+{\Huge SHT31V1A – digitální vlhkoměr a teploměr}
 
 {\Large Jan Chroust}
 
@@ -104,6 +129,18 @@ relativní vlhkosti a teploty a velkou přesností a stabilitou. Další
 přesné informace IO je možné vyčíst z oficiálního dokumentačního listu
 výrobce. Modul obsahuje veškeré potřebné součástky pro správný chod.
 
+\begin{figure}[htbp]
+\centering
+\includegraphics{DOC/SRC/img/docA.jpg}
+\caption{}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{DOC/SRC/img/docB.jpg}
+\caption{}
+\end{figure}
+
 \newpage
 
 \title{schema}
@@ -116,7 +153,11 @@ tady bude schema
 
 \subsection{Osazení}\label{osazenuxed}
 
+\begin{figure}[htbp]
+\centering
 \includegraphics{DOC/SRC/img/SHT31V01A_top_big.jpg}
+\caption{}
+\end{figure}
 
 \subsection{Oživení}\label{oux17eivenuxed}
 
