@@ -1,5 +1,6 @@
-<!--- AUTOgen ---> <!--- Please remove this line after manually editing --->
-<!--- Created:2017-01-02T14:38:45.835649: ---> 
+<!--- PrjInfo ---> <!--- Please remove this line after manually editing --->
+<!--- 00a56be08b96043df9e37d6aff7b6990 --->
+<!--- Created:2017-01-02T19:34:51.700947: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -14,7 +15,7 @@
 There are 4 NFETs switching to GND. Parameters depending on type of soldered FETs. Inductive load is allowed.
 <!--- ELead ---> 
 
-![LeadImg](DOC/SRC/img//NFET4X01B_Top_Big.JPG) 
+![LeadImg](DOC/SRC/img/NFET4X01B_Top_Big.JPG) 
 
 
 ​

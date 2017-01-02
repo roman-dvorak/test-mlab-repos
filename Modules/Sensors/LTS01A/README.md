@@ -1,5 +1,6 @@
-<!--- AUTOgen ---> <!--- Please remove this line after manually editing --->
-<!--- Created:2017-01-02T14:38:45.861208: ---> 
+<!--- PrjInfo ---> <!--- Please remove this line after manually editing --->
+<!--- 00a56be08b96043df9e37d6aff7b6990 --->
+<!--- Created:2017-01-02T19:34:51.747306: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -14,7 +15,7 @@ Local Temperature Sensor
 Temperature sensor with I2C digital bus and absolute accuracy of 0.5 K.
 <!--- ELead ---> 
 
-![LeadImg](DOC/SRC/img//LTS01A_Top_Big.jpg) 
+![LeadImg](DOC/SRC/img/LTS01A_Top_Big.jpg) 
 
 
 ​
