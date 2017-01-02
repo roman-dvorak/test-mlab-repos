@@ -44,14 +44,14 @@
 \setkeys{Gin}{width=\ScaleWidthIfNeeded,height=\ScaleHeightIfNeeded,keepaspectratio}%
 
 
-\author{ Jan Chroust }
+\author{ Mlab }
 \title{ SHT31V01A }
 
 \fancypagestyle{all}{
   \fancyhf{}
   \fancyhead[R]{\includegraphics[height=25pt]{/home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf}}
   \fancyhead[L]{ {\Huge SHT31V01A  } }
-  \fancyfoot[L]{ SHT31V01A; \today; Jan Chroust; \href{http://www.mlab.cz/}{www.mlab.cz} }
+  \fancyfoot[L]{ SHT31V01A; \today; Mlab; \href{http://www.mlab.cz/}{www.mlab.cz} }
   \fancyfoot[R]{\thepage\  of XX }
 }
 
@@ -64,24 +64,29 @@
 \vspace*{\fill}
 
 \begin{center}
-{\Huge SHT31V1A – digitální vlhkoměr a teploměr}
+{\Huge 
+Digital sensor relative humidity and temperature
+}
 
-{\Large Jan Chroust}
+{\Large Mlab}
 
 \vspace*{\fill}
 \vspace*{1cm}
 
 \end{center}
 
+%% if qr
 \begin{wrapfigure}{l}{4.5cm}
-    \includegraphics[width=4cm]{/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_QRcode.png}
+    \includegraphics[width=4cm]{\DOC\SRC\img\SHT31V01A_QRcode.png}
 \end{wrapfigure}
+%% endif
 
-Jedná se o modul, který je možné osadit IO SHT30 nebo SHT31, které umí
-měřit relativní vlhkost a teplotu s velkou přesností a stabilitou.
-Rozsah měřené vlhkosti je 0 \% až 100 \%. Teplota je měřena v rozsahu
--40 C až 125 C. Komunikace probíhá přes rozhranní I2C.
+%% if lead is defined
+SHT31 sensor module which measures relative humidity from 0\% to 100\%
+with an accuracy of + / - 2\%. Temperature is measured in the range -40
+° C to 125 ° C with a an accuracy of 0.3 ° C.
 
+%% endif
 
 \vspace*{\fill}
 \vfill
@@ -90,83 +95,21 @@ Rozsah měřené vlhkosti je 0 \% až 100 \%. Teplota je měřena v rozsahu
 %% if leadImg is defined
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=10cm]{/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img/SHT31V01A_top_big.jpg} 
+\includegraphics[width=10cm]{/home/roman/repos/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img//SHT31V01A_top_big.jpg} 
 \end{figure}
 %% endif
 
 
 %% if Description is defined
-\section{Technické parametry}\label{technickuxe9-parametry}
 
-\begin{longtable}[c]{@{}lll@{}}
-\toprule
-Parametr ~ ~ ~ ~ & Hodnota ~ ~ ~ & Poznámka ~ ~ ~ ~ ~ ~\tabularnewline
-\midrule
-\endhead
-Relativní vlhkost & 0 \% - 100 \% ~ & Typ. přesnost dle
-IO\tabularnewline
-Teplota ~ ~ ~ ~ ~ & -40C - 125C ~ & Typ. přesnost dle IO\tabularnewline
-integrovaný obvod & SHT30, SHT31 & ~ ~ ~ ~ ~ ~ ~ ~ ~ ~\tabularnewline
-Rozhraní & I2C &\tabularnewline
-Napájení & Min. 2.4 V - max. 5.5 V &\tabularnewline
-Rozměry & 9.65 x 40.13 mm &\tabularnewline
-\bottomrule
-\end{longtable}
 
 %% endif
 
 \newpage
 
-\section{Popis konstrukce}\label{popis-konstrukce}
+%% if Content is defined
 
-\subsection{Úvodem}\label{uxfavodem}
 
-Jedná se o modul založený na IO SHT31V01A, který umožňuje měření
-relativní vlhkosti a teploty a velkou přesností a stabilitou. Další
-přesné informace IO je možné vyčíst z oficiálního dokumentačního listu
-výrobce. Modul obsahuje veškeré potřebné součástky pro správný chod.
-
-\begin{figure}[htbp]
-\centering
-\includegraphics{DOC/SRC/img/docA.jpg}
-\caption{}
-\end{figure}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics{DOC/SRC/img/docB.jpg}
-\caption{}
-\end{figure}
-
-\section{Scheme}\ \includegraphics[angle=90,origin=c,width=\textwidth-1cm]{SCH_PCB/SHT31V01A.pdf}
-
-\section{Osazení a oživení}\label{osazenuxed-a-oux17eivenuxed}
-
-\subsection{Osazení}\label{osazenuxed}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics{DOC/new_src/SHT31V01A-MLABa.png}
-\caption{}
-\end{figure}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics{DOC/new_src/SHT31V01A-MLABb.png}
-\caption{}
-\end{figure}
-
-\subsection{Oživení}\label{oux17eivenuxed}
-
-Je potřeba provést kontrolu zda není na plošném spoji zkrat a zda je
-dobře zapájen IO. Jinak není třeba nic oživovat, pouze připojit a napsat
-program. Když je nulovým odporem osazena pozice R4 adresa modulu je
-0x44, pokud je osazena pozice R3 je adresa 0x45.
-
-\subsection{Program}\label{program}
-
-Vzorový program se nachází ve složce SW modulu. Pro spuštění je potřeba
-mít nainstalovaný pyMLAB.
-
+%% endif
 
 \end{document}

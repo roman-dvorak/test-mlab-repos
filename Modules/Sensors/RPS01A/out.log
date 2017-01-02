@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.25)  2 JAN 2017 00:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.2)  2 JAN 2017 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/RPS01A/out.tex -o /
-home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/RPS01A/README.pdf
-(/home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/RPS01A/out.tex
+**/home/roman/repos/test-mlab-repos/Modules/Sensors/RPS01A/out.tex -interaction
+=nonstopmode -output-directory=/home/roman/repos/test-mlab-repos/Modules/Sensor
+s/RPS01A -o /home/roman/repos/test-mlab-repos/Modules/Sensors/RPS01A/README.pdf
+
+(/home/roman/repos/test-mlab-repos/Modules/Sensors/RPS01A/out.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 7 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -345,17 +347,25 @@ File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-czech/czech.ldf
-Language: czech 2008/07/06 v3.1a Czech support from the babel system
-Package babel Info: Making " an active character on input line 172.
-\cs@wordlen=\count88
-Package babel Info: Making - an active character on input line 226.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+
+! Package babel Error: Unknown option `czech'. Either you misspelled it
+(babel)                or the language definition file czech.ldf was not found.
+
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.310 \ProcessOptions*
+                      
+? 
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
@@ -382,13 +392,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count89
+\inf@bad=\count88
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count90
-\leftroot@=\count91
+\uproot@=\count89
+\leftroot@=\count90
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count92
-\DOTSCASE@=\count93
+\classnum@=\count91
+\DOTSCASE@=\count92
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
@@ -397,15 +407,15 @@ LaTeX Info: Redefining \cdots on input line 518.
 \big@size=\dimen106
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count94
-\c@MaxMatrixCols=\count95
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count96
-\dspbrk@lvl=\count97
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
 \tag@help=\toks17
-\row@=\count98
-\column@=\count99
-\maxfields@=\count100
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
 \andhelp@=\toks18
 \eqnshift@=\dimen107
 \alignsep@=\dimen108
@@ -457,7 +467,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count101
+\Gread@gobject=\count100
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
@@ -476,9 +486,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count102
-\Gm@cntv=\count103
-\c@Gm@tempcnt=\count104
+\Gm@cnth=\count101
+\Gm@cntv=\count102
+\c@Gm@tempcnt=\count103
 \Gm@bindingoffset=\dimen115
 \Gm@wd@mp=\dimen116
 \Gm@odd@mp=\dimen117
@@ -525,7 +535,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@old@col=\dimen127
 \TX@target=\dimen128
 \TX@delta=\dimen129
-\TX@cols=\count105
+\TX@cols=\count104
 \TX@ftn=\toks24
 )
 (/usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
@@ -539,7 +549,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks25
 \XKV@tempa@toks=\toks26
 )
-\XKV@depth=\count106
+\XKV@depth=\count105
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
@@ -559,19 +569,19 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen135
 \caption@hangindent=\dimen136
 )
-\c@ContinuedFloat=\count107
+\c@ContinuedFloat=\count106
 )
-\c@KVtest=\count108
+\c@KVtest=\count107
 \sf@farskip=\skip48
 \sf@captopadj=\dimen137
 \sf@capskip=\skip49
 \sf@nearskip=\skip50
-\c@subfigure=\count109
-\c@subfigure@save=\count110
-\c@lofdepth=\count111
-\c@subtable=\count112
-\c@subtable@save=\count113
-\c@lotdepth=\count114
+\c@subfigure=\count108
+\c@subfigure@save=\count109
+\c@lofdepth=\count110
+\c@subtable=\count111
+\c@subtable@save=\count112
+\c@lotdepth=\count113
 \sf@top=\skip51
 \sf@bottom=\skip52
 )
@@ -587,7 +597,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 ))
 \SVG@out@width=\skip53
 \SVG@out@height=\skip54
-\c@svgfigure=\count115
+\c@svgfigure=\count114
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
@@ -595,16 +605,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip56
 \LTpre=\skip57
 \LTpost=\skip58
-\LTchunksize=\count116
+\LTchunksize=\count115
 \LTcapwidth=\dimen138
 \LT@head=\box28
 \LT@firsthead=\box29
 \LT@foot=\box30
 \LT@lastfoot=\box31
-\LT@cols=\count117
-\LT@rows=\count118
-\c@LT@tables=\count119
-\c@LT@chunks=\count120
+\LT@cols=\count116
+\LT@rows=\count117
+\c@LT@tables=\count118
+\c@LT@chunks=\count119
 \LT@p@ftn=\toks27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -619,12 +629,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen146
 \cmidrulekern=\dimen147
 \defaultaddspace=\dimen148
-\@cmidla=\count121
-\@cmidlb=\count122
+\@cmidla=\count120
+\@cmidlb=\count121
 \@aboverulesep=\dimen149
 \@belowrulesep=\dimen150
-\@thisruleclass=\count123
-\@lastruleclass=\count124
+\@thisruleclass=\count122
+\@lastruleclass=\count123
 \@thisrulewidth=\dimen151
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -688,15 +698,15 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen152
-\Hy@linkcounter=\count125
-\Hy@pagecounter=\count126
+\Hy@linkcounter=\count124
+\Hy@pagecounter=\count125
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count127
+\Hy@SavedSpaceFactor=\count126
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -708,7 +718,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count128
+\c@Hy@tempcnt=\count127
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -716,7 +726,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen153
-\Fld@menulength=\count129
+\Fld@menulength=\count128
 \Field@Width=\dimen154
 \Fld@charsize=\dimen155
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -728,17 +738,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count130
-\c@Item=\count131
-\c@Hfootnote=\count132
+\Hy@abspage=\count129
+\c@Item=\count130
+\c@Hfootnote=\count131
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count133
-\c@bookmark@seq@number=\count134
+\Fld@listcount=\count132
+\c@bookmark@seq@number=\count133
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -750,7 +760,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen156
 \WF@size=\dimen157
-\c@WF@wrappedlines=\count135
+\c@WF@wrappedlines=\count134
 \WF@box=\box32
 \WF@everypar=\toks28
 Package: wrapfig 2003/01/31  v 3.6
@@ -763,15 +773,15 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count136
-\calc@Bcount=\count137
+\calc@Acount=\count135
+\calc@Bcount=\count136
 \calc@Adimen=\dimen158
 \calc@Bdimen=\dimen159
 \calc@Askip=\skip69
 \calc@Bskip=\skip70
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count138
+\calc@Ccount=\count137
 \calc@Cskip=\skip71
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -785,7 +795,7 @@ File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box33
 \AM@toc@title=\toks29
-\c@AM@survey=\count139
+\c@AM@survey=\count138
 \AM@templatesizebox=\box34
 ) (./out.aux)
 \openout1 = `out.aux'.
@@ -807,16 +817,16 @@ LaTeX Font Info:    ... okay on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count140
+\scratchcounter=\count139
 \scratchdimen=\dimen162
 \scratchbox=\box35
-\nofMPsegments=\count141
-\nofMParguments=\count142
+\nofMPsegments=\count140
+\nofMParguments=\count141
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count143
+\MPscratchCnt=\count142
 \MPscratchDim=\dimen163
-\MPnumerator=\count144
-\makeMPintoPDFobject=\count145
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
 \everyMPtoPDFconversion=\toks31
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -884,7 +894,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count146
+\c@section@level=\count145
 )
 LaTeX Info: Redefining \ref on input line 60.
 LaTeX Info: Redefining \pageref on input line 60.
@@ -903,12 +913,75 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-<DOC/SRC/img/RPS01A_QRcode.png, id=4, 557.08125pt x 557.08125pt>
-File: DOC/SRC/img/RPS01A_QRcode.png Graphic file (type png)
+! Undefined control sequence.
+<argument> \DOC 
+                \SRC \img \RPS 01A_QRcode.png
+l.80 ...width=4cm]{\DOC\SRC\img\RPS01A_QRcode.png}
+                                                  
+? 
+! Undefined control sequence.
+<argument> \SRC 
+                \img \RPS 01A_QRcode
+l.80 ...width=4cm]{\DOC\SRC\img\RPS01A_QRcode.png}
+                                                  
+? 
+! Undefined control sequence.
+<argument> \SRC \img 
+                     \RPS 01A_QRcode
+l.80 ...width=4cm]{\DOC\SRC\img\RPS01A_QRcode.png}
+                                                  
+? 
+! Undefined control sequence.
+<argument> \SRC \img \RPS 
+                          01A_QRcode
+l.80 ...width=4cm]{\DOC\SRC\img\RPS01A_QRcode.png}
+                                                  
+? 
+! Undefined control sequence.
+<write> 
+LaTeX Warning: File `\DOC 
+                                   \SRC \img \RPS 01A_QRcode.png' not found\...
+l.80 ...width=4cm]{\DOC\SRC\img\RPS01A_QRcode.png}
+                                                  
+? 
+! Undefined control sequence.
+<write> 
+LaTeX Warning: File `\DOC \SRC 
+                                        \img \RPS 01A_QRcode.png' not found\...
+l.80 ...width=4cm]{\DOC\SRC\img\RPS01A_QRcode.png}
+                                                  
+? 
+! Undefined control sequence.
+<write> 
+LaTeX Warning: File `\DOC \SRC \img 
+                                             \RPS 01A_QRcode.png' not found\...
+l.80 ...width=4cm]{\DOC\SRC\img\RPS01A_QRcode.png}
+                                                  
+? 
+! Undefined control sequence.
+<write> 
+LaTeX Warning: File `\DOC \SRC \img \RPS 
+                                                  01A_QRcode.png' not found\...
+l.80 ...width=4cm]{\DOC\SRC\img\RPS01A_QRcode.png}
+                                                  
+? 
 
-<use DOC/SRC/img/RPS01A_QRcode.png>
-Package pdftex.def Info: DOC/SRC/img/RPS01A_QRcode.png used on input line 80.
-(pdftex.def)             Requested size: 113.80287pt x 113.80287pt.
+LaTeX Warning: File `01A_QRcode.png' not found on input line 80.
+
+
+! Package pdftex.def Error: File `01A_QRcode.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 ...width=4cm]{\DOC\SRC\img\RPS01A_QRcode.png}
+                                                  
+? 
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 80.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
 LaTeX Font Info:    Try loading font information for U+msa on input line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -919,37 +992,42 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 89.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-</home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/RPS01A/DOC/SRC/img/R
-PS01A_top_big.jpg, id=5, 1032.85875pt x 613.29124pt>
-File: /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/RPS01A/DOC/SRC/
-img/RPS01A_top_big.jpg Graphic file (type jpg)
+</home/roman/repos/test-mlab-repos/Modules/Sensors/RPS01A/DOC/SRC/img//RPS01A_t
+op_big.jpg, id=4, 1032.85875pt x 613.29124pt>
+File: /home/roman/repos/test-mlab-repos/Modules/Sensors/RPS01A/DOC/SRC/img//RPS
+01A_top_big.jpg Graphic file (type jpg)
 
-<use /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/RPS01A/DOC/SRC/i
-mg/RPS01A_top_big.jpg>
-Package pdftex.def Info: /home/roman/repos/newMLAB/test-mlab-repos/Modules/Sens
-ors/RPS01A/DOC/SRC/img/RPS01A_top_big.jpg used on input line 101.
+<use /home/roman/repos/test-mlab-repos/Modules/Sensors/RPS01A/DOC/SRC/img//RPS0
+1A_top_big.jpg>
+Package pdftex.def Info: /home/roman/repos/test-mlab-repos/Modules/Sensors/RPS0
+1A/DOC/SRC/img//RPS01A_top_big.jpg used on input line 101.
 (pdftex.def)             Requested size: 284.51772pt x 168.94102pt.
 
-</home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf, id=6, 373.42784pt 
-x 58.2175pt>
-File: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf Graphic file (
-type pdf)
- <use /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf>
-Package pdftex.def Info: /home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long
-.pdf used on input line 111.
-(pdftex.def)             Requested size: 160.36pt x 25.00015pt.
 
+LaTeX Warning: File `/home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf
+' not found on input line 111.
+
+
+! Package pdftex.def Error: File `/home/roman/repos/MLAB/Library/Graphics/logo_
+MLAB_long.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \newpage
+              
+? 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 29.35019pt.
+ Make it at least 29.34943pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- </home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf> <./DOC/SRC/img/RP
-S01A_QRcode.png> </home/roman/repos/newMLAB/test-mlab-repos/Modules/Sensors/RPS
-01A/DOC/SRC/img/RPS01A_top_big.jpg>]
+ </home/roman/repos/test-mlab-repos/Modules/Sensors/RPS01A/DOC/SRC/img//RPS01A_
+top_big.jpg>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
  (./out.aux)
@@ -960,22 +1038,24 @@ Package rerunfilecheck Info: File `out.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 10639 strings out of 494878
- 153693 string characters out of 6178665
- 266133 words of memory out of 5000000
- 13743 multiletter control sequences out of 15000+600000
- 10372 words of font info for 31 fonts, out of 8000000 for 9000
- 46 hyphenation exceptions out of 8191
- 68i,15n,98p,423b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 10532 strings out of 494953
+ 152314 string characters out of 6180978
+ 264126 words of memory out of 5000000
+ 13624 multiletter control sequences out of 15000+600000
+ 10998 words of font info for 33 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 68i,14n,98p,507b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/roman/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/r
 oman/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/roman/.texmf
 -var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/roman/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/roman/.texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm2488.600pk>
-Output written on out.pdf (1 page, 282680 bytes).
+pk/ljfour/jknappen/ec/ectt1440.600pk> </home/roman/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm1728.600pk> </home/roman/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ectt1200.600pk> </home/roman/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.60
+0pk>
+Output written on out.pdf (1 page, 283330 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 168 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
