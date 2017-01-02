@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.2)  2 JAN 2017 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.2)  2 JAN 2017 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -913,74 +913,14 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-! Undefined control sequence.
-<argument> \DOC 
-                \SRC \img \PWMLED 01A_QRcode.png
-l.80 ...th=4cm]{\DOC\SRC\img\PWMLED01A_QRcode.png}
-                                                  
-? 
-! Undefined control sequence.
-<argument> \SRC 
-                \img \PWMLED 01A_QRcode
-l.80 ...th=4cm]{\DOC\SRC\img\PWMLED01A_QRcode.png}
-                                                  
-? 
-! Undefined control sequence.
-<argument> \SRC \img 
-                     \PWMLED 01A_QRcode
-l.80 ...th=4cm]{\DOC\SRC\img\PWMLED01A_QRcode.png}
-                                                  
-? 
-! Undefined control sequence.
-<argument> \SRC \img \PWMLED 
-                             01A_QRcode
-l.80 ...th=4cm]{\DOC\SRC\img\PWMLED01A_QRcode.png}
-                                                  
-? 
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `\DOC 
-                                   \SRC \img \PWMLED 01A_QRcode.png' not fou...
-l.80 ...th=4cm]{\DOC\SRC\img\PWMLED01A_QRcode.png}
-                                                  
-? 
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `\DOC \SRC 
-                                        \img \PWMLED 01A_QRcode.png' not fou...
-l.80 ...th=4cm]{\DOC\SRC\img\PWMLED01A_QRcode.png}
-                                                  
-? 
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `\DOC \SRC \img 
-                                             \PWMLED 01A_QRcode.png' not fou...
-l.80 ...th=4cm]{\DOC\SRC\img\PWMLED01A_QRcode.png}
-                                                  
-? 
-! Undefined control sequence.
-<write> ... Warning: File `\DOC \SRC \img \PWMLED 
-                                                  01A_QRcode.png' not found\...
-l.80 ...th=4cm]{\DOC\SRC\img\PWMLED01A_QRcode.png}
-                                                  
-? 
+<DOC/SRC/img/PWMLED01A_QRcode.png, id=4, 557.08125pt x 557.08125pt>
+File: DOC/SRC/img/PWMLED01A_QRcode.png Graphic file (type png)
 
-LaTeX Warning: File `01A_QRcode.png' not found on input line 80.
+<use DOC/SRC/img/PWMLED01A_QRcode.png>
+Package pdftex.def Info: DOC/SRC/img/PWMLED01A_QRcode.png used on input line 80
+.
+(pdftex.def)             Requested size: 113.80287pt x 113.80287pt.
 
-
-! Package pdftex.def Error: File `01A_QRcode.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 ...th=4cm]{\DOC\SRC\img\PWMLED01A_QRcode.png}
-                                                  
-? 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 80.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 
 ! LaTeX Error: File `/home/roman/repos/test-mlab-repos/Modules/PowerSW/PWMLED01
 A/' not found.
@@ -992,30 +932,23 @@ Type  H <return>  for immediate help.
 l.96 ...est-mlab-repos/Modules/PowerSW/PWMLED01A/}
                                                   
 ? 
+</home/roman/logo_MLAB_long.pdf, id=5, 373.42784pt x 58.2175pt>
+File: /home/roman/logo_MLAB_long.pdf Graphic file (type pdf)
 
-LaTeX Warning: File `/home/roman/repos/MLAB/Library/Graphics/logo_MLAB_long.pdf
-' not found on input line 106.
+<use /home/roman/logo_MLAB_long.pdf>
+Package pdftex.def Info: /home/roman/logo_MLAB_long.pdf used on input line 106.
 
+(pdftex.def)             Requested size: 160.36pt x 25.00015pt.
 
-! Package pdftex.def Error: File `/home/roman/repos/MLAB/Library/Graphics/logo_
-MLAB_long.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 \newpage
-              
-? 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 29.34943pt.
+ Make it at least 29.35019pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
+ </home/roman/logo_MLAB_long.pdf> <./DOC/SRC/img/PWMLED01A_QRcode.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (./out.aux)
@@ -1026,23 +959,21 @@ Package rerunfilecheck Info: File `out.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 10495 strings out of 494953
- 151321 string characters out of 6180978
- 263147 words of memory out of 5000000
- 13601 multiletter control sequences out of 15000+600000
- 7636 words of font info for 21 fonts, out of 8000000 for 9000
+ 10479 strings out of 494953
+ 150965 string characters out of 6180978
+ 263063 words of memory out of 5000000
+ 13589 multiletter control sequences out of 15000+600000
+ 7010 words of font info for 19 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,14n,98p,516b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,15n,98p,516b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/roman/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/r
 oman/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/roman/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ectt1440.600pk> </home/roman/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/roman/.texmf-var/fonts/pk/ljfour/j
-knappen/ec/ectt1200.600pk> </home/roman/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecrm2488.600pk>
-Output written on out.pdf (1 page, 37961 bytes).
+-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/roman/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecrm2488.600pk>
+Output written on out.pdf (1 page, 38058 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
