@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.720287: ---> 
+<!--- Created:2017-01-02T13:57:00.876350: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -12,8 +12,6 @@ Raspberry Pi MLAB assimilation
 <!--- Lead --->
 Documents and design files describing a mothod how to use classic Raspberries Pi in MLAB prototyping system.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/RPi_top_big.jpg) 
 
 
 ​

@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.681793: ---> 
+<!--- Created:2017-01-02T13:57:00.819354: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -25,8 +25,6 @@ Simple analog humidity sensor
 <!--- Lead --->
 Humidity sensor based on HIH-5030/5031 chip. Analog output is ratiometric.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/HUM01A_top_big.jpg) 
 
 
 ​

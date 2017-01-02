@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.672531: ---> 
+<!--- Created:2017-01-02T13:57:00.801080: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -13,7 +13,7 @@ PWM LED control module
 This module is usefull for PWM dimming of power LEDs.
 <!--- ELead ---> 
 
-![LeadImg](DOC/SRC/img/PWMLED01C_top_big.jpg) 
+![LeadImg](DOC/SRC/img//home/roman/repos/test-mlab-repos/Modules/PowerSW/PWMLED01C/DOC/SRC/img//PWMLED01C_top_big.jpg) 
 
 
 ​

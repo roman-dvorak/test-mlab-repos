@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.687578: ---> 
+<!--- Created:2017-01-02T13:57:00.830344: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -24,8 +24,6 @@ I2C sensor colored light
 <!--- Lead --->
 The sensor comprises a sensor red, green, blue and clear colors. Communication takes place via the I2C interface. Circuit includes a power supply for external IR LED. The sensor can be used to measure lighting conditions, or also for detection of the line for the bar and the robot for sensing rotation of automotive wheels.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/RGBC01A_top_big.jpg) 
 
 
 ​

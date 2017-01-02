@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.696400: ---> 
+<!--- Created:2017-01-02T13:57:00.847469: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -12,8 +12,6 @@ Ambient Light Sensor
 <!--- Lead --->
 Light sensor with I2C interface to 168 klx.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/ISL03A_top_big.jpg) 
 
 
 ​

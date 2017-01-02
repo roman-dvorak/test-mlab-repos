@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.721060: ---> 
+<!--- Created:2017-01-02T13:57:00.877174: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -13,7 +13,7 @@ ARM microcontroller module
 STM32 10X series dovelopment module.
 <!--- ELead ---> 
 
-![LeadImg](DOC/SRC/img/STM32F10xRxT01A_top_big.jpg) 
+![LeadImg](DOC/SRC/img//home/roman/repos/test-mlab-repos/Modules/ARM/STM32F10xRxT01A/DOC/SRC/img//STM32F10xRxT01A_Top_Big.jpg) 
 
 
 ​

@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.680749: ---> 
+<!--- Created:2017-01-02T13:57:00.817299: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -25,8 +25,6 @@ Simple thermophile temperature sensor
 <!--- Lead --->
 Contact less IR temperature sensor with SMBus interface.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/THERMOPHILE01A_top_big.jpg) 
 
 
 ​

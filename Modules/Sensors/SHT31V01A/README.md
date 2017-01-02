@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.684910: ---> 
+<!--- Created:2017-01-02T13:57:00.825425: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -13,7 +13,7 @@ Digital sensor relative humidity and temperature
 SHT31 sensor module which measures relative humidity from 0% to 100% with an accuracy of + / - 2%. Temperature is measured in the range -40 ° C to 125 ° C with a  an accuracy of 0.3 ° C.
 <!--- ELead ---> 
 
-![LeadImg](DOC/SRC/img/SHT31V01A_top_big.jpg) 
+![LeadImg](DOC/SRC/img//home/roman/repos/test-mlab-repos/Modules/Sensors/SHT31V01A/DOC/SRC/img//SHT31V01A_top_big.jpg) 
 
 
 ​

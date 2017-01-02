@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.695683: ---> 
+<!--- Created:2017-01-02T13:57:00.846030: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -12,8 +12,6 @@ UV index Light sensor.
 <!--- Lead --->
 Light sensor with I2C interface and UV index measuring capability.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/ISL02A_top_big.jpg) 
 
 
 ​

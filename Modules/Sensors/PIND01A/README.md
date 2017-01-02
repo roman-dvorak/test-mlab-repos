@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.711603: ---> 
+<!--- Created:2017-01-02T13:57:00.867616: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -12,8 +12,6 @@ PIN diode array of photodiodes for dosimeter
 <!--- Lead --->
 The module includes a parallel-connected diodes for PINS dosimeter.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/PIND01A_top_big.jpg) 
 
 
 ​

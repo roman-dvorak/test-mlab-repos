@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.697686: ---> 
+<!--- Created:2017-01-02T13:57:00.849991: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -24,8 +24,6 @@ Storm Monitor sensor
 <!--- Lead --->
 
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/SM01A_top_big.jpg) 
 
 
 ​

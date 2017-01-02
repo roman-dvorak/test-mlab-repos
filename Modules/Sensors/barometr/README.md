@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.686447: ---> 
+<!--- Created:2017-01-02T13:57:00.828385: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -23,8 +23,6 @@ Barometric sensor
 <!--- Lead --->
 
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/barometr_top_big.jpg) 
 
 
 ​

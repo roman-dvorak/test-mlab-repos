@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.712438: ---> 
+<!--- Created:2017-01-02T13:57:00.868621: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -23,8 +23,6 @@ Simple 2axis analog accelerometer sensor
 <!--- Lead --->
 
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/MMA6260_top_big.jpg) 
 
 
 ​

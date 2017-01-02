@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.677223: ---> 
+<!--- Created:2017-01-02T13:57:00.810446: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -27,8 +27,6 @@ PWM LED control module
 <!--- Lead --->
 Replaced by PWMLED01C.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/PWMLED01B_top_big.jpg) 
 
 
 ​

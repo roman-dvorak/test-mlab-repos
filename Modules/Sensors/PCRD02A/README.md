@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.694707: ---> 
+<!--- Created:2017-01-02T13:57:00.844089: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -23,8 +23,6 @@
 <!--- Lead --->
 
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/PCRD02A_top_big.jpg) 
 
 
 ​

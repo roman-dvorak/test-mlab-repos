@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.702820: ---> 
+<!--- Created:2017-01-02T13:57:00.853946: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -13,7 +13,7 @@ Hall effect current sensor
 This sensor measures electric current with high precision over wide range of currents up to 30A and 80kHz bandwith. This sensor has a linear voltage output.
 <!--- ELead ---> 
 
-![LeadImg](DOC/SRC/img/IUC01A_top_big.jpg) 
+![LeadImg](DOC/SRC/img//home/roman/repos/test-mlab-repos/Modules/Sensors/IUC01A/DOC/SRC/img//IUC01A_Top_Big.jpg) 
 
 
 ​

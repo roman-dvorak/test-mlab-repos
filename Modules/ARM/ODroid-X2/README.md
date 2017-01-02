@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.726419: ---> 
+<!--- Created:2017-01-02T13:57:00.881384: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -12,8 +12,6 @@ ARM computer module
 <!--- Lead --->
 Computer module for control applications in which computing power is desired. 1.7GHz Quad core ARM Cortex-A9 MPCore, 2GB Memory, Linux operating system.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/ODroid-X2_top_big.jpg) 
 
 
 ​

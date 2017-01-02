@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.671540: ---> 
+<!--- Created:2017-01-02T13:57:00.799042: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -13,7 +13,7 @@
 There are 4 NFETs switching to GND. Parameters depending on type of soldered FETs. Inductive load is allowed.
 <!--- ELead ---> 
 
-![LeadImg](DOC/SRC/img/NFET4X01B_top_big.jpg) 
+![LeadImg](DOC/SRC/img//home/roman/repos/test-mlab-repos/Modules/PowerSW/NFET4X01B/DOC/SRC/img//NFET4X01B_Top_Big.JPG) 
 
 
 ​

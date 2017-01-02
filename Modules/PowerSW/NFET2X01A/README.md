@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.667397: ---> 
+<!--- Created:2017-01-02T13:57:00.791123: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -28,8 +28,6 @@ země. Spínaná zátěž může mít indukční charakter.
 <!--- Lead --->
 There are 2 NFETs switching to earth. Inductive load is allowed.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/NFET2X01A_top_big.jpg) 
 
 
 ​

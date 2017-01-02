@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.673784: ---> 
+<!--- Created:2017-01-02T13:57:00.803578: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -27,8 +27,6 @@ Relay switch module
 <!--- Lead --->
 There are 8 switching relays. Digitaly controlled by ULN2803
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/REL8SW01A_top_big.jpg) 
 
 
 ​

@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.675787: ---> 
+<!--- Created:2017-01-02T13:57:00.807560: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -33,8 +33,6 @@ in a frequency range of up to 155 MHz. The three
 channels can be accumulatively pulsed and the peak optical power of
 the laser diode is regulated separately.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/LDD01A_top_big.jpg) 
 
 
 ​

@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.705842: ---> 
+<!--- Created:2017-01-02T13:57:00.860953: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -23,8 +23,6 @@ Simple 1axis analog accelerometer sensor
 <!--- Lead --->
 
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/G-metr_top_big.jpg) 
 
 
 ​

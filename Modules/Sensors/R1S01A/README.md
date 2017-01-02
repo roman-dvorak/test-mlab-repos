@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.710143: ---> 
+<!--- Created:2017-01-02T13:57:00.866257: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -24,8 +24,6 @@ Simple IR reflexive sensor.
 <!--- Lead --->
 
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/R1S01A_top_big.jpg) 
 
 
 ​

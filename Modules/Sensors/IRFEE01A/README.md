@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.688755: ---> 
+<!--- Created:2017-01-02T13:57:00.832536: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -32,8 +32,6 @@ be seen as virtual feeler for roboot. The sensor uses processor ATtiny and infra
 sensor for remote control. The modulation and statistical processing of the signal
 gives the sensor good noise imunity.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/IRFEE01A_top_big.jpg) 
 
 
 ​

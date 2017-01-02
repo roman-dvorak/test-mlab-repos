@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.692361: ---> 
+<!--- Created:2017-01-02T13:57:00.839421: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -23,8 +23,6 @@ High Current Sensor
 <!--- Lead --->
 
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/HCS01A_top_big.jpg) 
 
 
 ​

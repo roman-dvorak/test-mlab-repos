@@ -1,4 +1,4 @@
-<!--- Created:2017-01-02T13:45:51.679609: ---> 
+<!--- Created:2017-01-02T13:57:00.815037: ---> 
 <!--- Author:Mlab: ---> 
 <!--- AuthorEmail:email@mlab.cz: ---> 
 <!--- Tags:None: ---> 
@@ -28,8 +28,6 @@ RGB Feeler Head
 RGB Head consists of 3 pairs of Read, Green and Blue LEDs and of one 
 fototransistor.
 <!--- ELead ---> 
-
-![LeadImg](DOC/SRC/img/RGBHD01A_top_big.jpg) 
 
 
 ​
