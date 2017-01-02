@@ -1,9 +1,8 @@
-<!--- tags:New|Old|Prepared|in development: --->
-![TagImg](http://vo.mlab.cz:5252/api/mlab-repos/TagImg.svg?module=RPS01A&mode=m&tags=New|Old|Prepared|in development)
-[![UstImg](http://vo.mlab.cz:5252/api/mlab-repos/UstImg.svg?module=RPS01A)](http://ust.cz)
-<!--- Created:2017-01-02T00:12:37.669939: ---> 
-<!--- Author:['Mlab','MLAB2']: ---> 
-<!--- AuthorEmail:['email@mlab.cz']: ---> 
+<!--- Created:2017-01-02T13:45:51.703909: ---> 
+<!--- Author:Mlab: ---> 
+<!--- AuthorEmail:email@mlab.cz: ---> 
+<!--- Tags:None: ---> 
+<!--- Ust:None: ---> 
 <!--- Name:RPS01A: --->
 #RPS01A 
 <!--- LongName --->
@@ -17,9 +16,10 @@ In is a contactless magnetic position sensor for accurate angular measurement ov
 ![LeadImg](DOC/SRC/img/RPS01A_top_big.jpg) 
 
 
-
-
+​
+​
 <!--- Description --->
 <!--- EDescription --->
 <!--- Content --->
 <!--- EContent --->
+            
