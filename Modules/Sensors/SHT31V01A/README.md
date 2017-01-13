@@ -1,10 +1,12 @@
 <!--- PrjInfo ---> <!--- Please remove this line after manually editing --->
 <!--- 00a56be08b96043df9e37d6aff7b6990 --->
-<!--- Created:2017-01-02T19:34:51.737409: ---> 
+<!--- Created:20170113-18:25: ---> 
 <!--- Author:Mlab: ---> 
-<!--- AuthorEmail:email@mlab.cz: ---> 
-<!--- Tags:None: ---> 
-<!--- Ust:None: ---> 
+<!--- AuthorEmail:mlab@mlab.cz: ---> 
+<!--- Tags:imported: ---> 
+<!--- Ust:http://www.ust.cz/shop/product_info.php?cPath=22_28&products_id=267: ---> 
+<!--- Label --->
+![imported](http://vo.mlab.cz:5252/git/tag/img/imported.png)[![Buy online](http://vo.mlab.cz:5252/git/tag/img/ust.png)](http://www.ust.cz/shop/product_info.php?cPath=22_28&products_id=267)<!--- ELabel ---> 
 <!--- Name:SHT31V01A: --->
 #SHT31V01A 
 <!--- LongName --->
@@ -18,10 +20,9 @@ SHT31 sensor module which measures relative humidity from 0% to 100% with an acc
 ![LeadImg](DOC/SRC/img/SHT31V01A_top_big.jpg) 
 
 
-​
-​
+
+
 <!--- Description --->
 <!--- EDescription --->
 <!--- Content --->
 <!--- EContent --->
-            
